@@ -1,118 +1,120 @@
-/* GENEL STİLLER */
+/* General Styles */
 body {
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    background-color: #0F172A;
+    background-color: #0D1224;
     color: white;
 }
 
-/* HEADER / NAVBAR */
+/* Header */
 header {
-    background-color: #0F172A;
+    background-color: #0D1224;
     padding: 15px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
+    margin: 0 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #FFFFFF;
     font-size: 35px;
     font-weight: bold;
-    font-style: italic;
-    transition: 0.3s;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* ANA BÖLÜMLER */
-section {
-    padding: 100px 20px;
-}
-
-/* HERO SECTION */
-#hero {
-    background-color: #0D5C75;
-    padding: 200px 20px;
-}
-
-#hero h1 {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-#hero p {
-    font-size: 24px;
-    font-style: italic;
-}
-
-/* ABOUT, EXPERIENCE, SKILLS */
-#about, #skills {
-    background-color: #6F7C94;
     color: white;
+    font-style: italic;
+}
+
+/* Sections */
+section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#about {
+    background-color: #126875;
 }
 
 #experience {
-    background-color: #0D5C75;
+    background-color: #126875;
 }
 
-h2 {
-    font-size: 40px;
-    font-weight: bold;
+#skills {
+    background-color: #5C6676;
+}
+
+#contact {
+    background-color: #0D1224;
+}
+
+/* Footer */
+footer {
+    background-color: #0D1224;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
     font-style: italic;
 }
 
-/* FORM STİLLERİ */
-form {
-    max-width: 500px;
-    margin: 0 auto;
+footer .footer-content {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-input, textarea {
+footer .footer-content p,
+footer .footer-content a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-content .privacy {
+    text-decoration: underline;
+}
+
+footer .footer-content .linkedin img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* Form */
+form {
+    background: #161B38;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+form input, form textarea {
     width: 100%;
     padding: 10px;
+    margin: 10px 0;
     border: none;
     border-radius: 5px;
+    background-color: #2A3352;
+    color: white;
 }
 
-button {
-    background-color: #0D5C75;
+form button {
+    background-color: #126875;
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #094654;
-}
-
-/* FOOTER */
-footer {
-    background-color: #0F172A;
-    padding: 20px;
-    font-size: 16px;
-    color: white;
+form button:hover {
+    background-color: #0F5560;
 }
