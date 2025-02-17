@@ -1,110 +1,85 @@
-/* Genel Stil */
 body {
     font-family: 'Futura', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1e4b5d;
-    color: #ffffff;
+    background-color: #144E67;
+    color: #FFFFFF;
 }
 
-/* Navbar */
-nav {
-    background-color: #103547;
-    padding: 15px 0;
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
     text-align: center;
 }
 
 nav ul {
+    display: flex;
+    justify-content: center;
     list-style: none;
-    padding: 0;
+    padding: 10px;
+    background-color: #0F3B50;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #ffc107;
     text-decoration: none;
+    color: #FFD700;
     font-size: 18px;
+    font-weight: 400;
 }
 
-/* Hero */
-.hero {
+section {
     text-align: center;
-    padding: 80px 20px;
-    background-color: #22556b;
+    padding: 40px 20px;
 }
 
-.hero h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.hero span {
-    color: #ffc107;
-}
-
-.subtitle {
-    font-style: italic;
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-/* İçerik Kutuları */
-.content-box {
-    background-color: #2a5c73;
-    padding: 40px;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 900px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-.content-box h2 {
-    font-size: 28px;
-}
-
-/* İletişim Kutusu */
-.contact-box {
-    background-color: #22556b;
-    padding: 30px;
-}
-
-.contact-box form {
+form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
 }
 
-.contact-box input, .contact-box textarea {
-    width: 100%;
+input, textarea {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px 0;
     padding: 10px;
-    border: none;
     border-radius: 5px;
+    border: none;
+    font-size: 16px;
 }
 
-.contact-box button {
-    background-color: #ffc107;
-    color: black;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+button {
+    background-color: #FFD700;
+    color: #144E67;
     font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.contact-box button:hover {
-    background-color: #ffb300;
-}
-
-/* Footer */
 footer {
     text-align: center;
-    background-color: #103547;
-    padding: 15px;
-    font-size: 14px;
+    padding: 20px;
+    background-color: #0F3B50;
 }
