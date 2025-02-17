@@ -1,21 +1,26 @@
+/* Genel Sayfa Stilleri */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #115C80;
-    color: #fff;
+    background-color: #1a4d6e;
+    color: white;
     text-align: center;
 }
 
-nav {
-    background-color: #0D3B66;
-    padding: 15px;
+/* Navbar */
+header {
+    background-color: #0d3b5a;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
 }
@@ -26,51 +31,77 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #FFD700;
     font-weight: bold;
+    color: #f0c419;
 }
 
-#hero {
-    padding: 60px 20px;
-    font-size: 24px;
+/* Hero Section */
+.hero {
+    padding: 150px 20px 100px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin: 0;
 }
 
 .highlight {
-    color: #FFD700;
+    color: #f0c419;
+    font-weight: bold;
 }
 
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Bölüm Stilleri */
 section {
-    padding: 50px 20px;
-    border-bottom: 1px solid #fff;
+    padding: 60px 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+/* Form Stilleri */
 form {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin: auto;
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-form input, form textarea {
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-form button {
-    padding: 10px;
-    background-color: #FFD700;
-    color: #0D3B66;
-    border: none;
-    font-size: 18px;
+label {
+    color: #0d3b5a;
     font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+button {
+    background-color: #f0c419;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
     cursor: pointer;
     border-radius: 5px;
+    color: black;
+    font-weight: bold;
 }
 
+/* Footer */
 footer {
-    background-color: #0D3B66;
+    background-color: #0d3b5a;
     padding: 20px;
-    font-size: 14px;
+    text-align: center;
+    color: white;
 }
