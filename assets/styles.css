@@ -1,6 +1,6 @@
-/* Genel Stil */
+/* General Styles */
 body {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     background-color: #0d1126;
     color: white;
     margin: 0;
@@ -8,144 +8,106 @@ body {
     text-align: center;
 }
 
-/* Navbar */
-.navbar {
+/* Navigation Bar */
+.nav-bar {
     background-color: #0d1126;
     padding: 15px 0;
     text-align: center;
 }
 
-.navbar ul {
+.nav-links {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
-.navbar ul li {
+.nav-links li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
-.navbar ul li a {
-    font-size: 22px;
+.nav-links a {
     text-decoration: none;
-    font-style: italic;
+    font-size: 35px;
     font-weight: bold;
     color: white;
+    font-style: italic;
 }
 
 /* Hero Section */
 .hero {
     background-color: #115C80;
-    padding: 60px 20px;
-}
-
-.hero h1 {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.hero p {
-    font-size: 18px;
-    font-style: italic;
-}
-
-/* Genel Bölüm Stili */
-.section {
-    padding: 60px 20px;
-    background-color: #3d475d;
-}
-
-.section h2 {
-    font-size: 30px;
-    font-weight: bold;
-    font-style: italic;
-}
-
-/* Experience Bölümü */
-.experience {
-    background-color: #115C80;
-    padding: 20px;
-    margin: 20px auto;
-    width: 50%;
-    border-radius: 10px;
-}
-
-.experience h3 {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.experience p {
-    font-size: 16px;
-}
-
-.experience a {
-    font-size: 16px;
-    font-weight: bold;
-    color: #FFD700;
-    text-decoration: none;
-}
-
-/* Skills Bölümü */
-#skills {
-    background-color: #3d475d;
     padding: 50px;
 }
 
-#skills p {
-    font-size: 18px;
+.hero h1 {
+    font-size: 48px;
 }
 
-/* Contact Form */
+.hero p {
+    font-size: 22px;
+    font-style: italic;
+}
+
+/* Sections */
+.section {
+    padding: 50px;
+    background-color: #4E5D73;
+    margin: 20px 0;
+}
+
+.section h2 {
+    font-size: 32px;
+    font-style: italic;
+}
+
+/* Experience Section */
+.experience-item {
+    margin: 20px 0;
+}
+
+.experience-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Contact Section */
 .contact-section {
+    padding: 50px;
     background-color: #0d1126;
-    padding: 50px 0;
 }
 
 .contact-form {
-    background-color: #141b2d;
-    padding: 30px;
-    border-radius: 10px;
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
     margin: auto;
 }
 
-.contact-form input,
+.contact-form input, 
 .contact-form textarea {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     margin: 10px 0;
+    background-color: #1a1f38;
     border: none;
-    border-radius: 5px;
-    background-color: #1f283e;
     color: white;
 }
 
 .contact-form button {
-    width: 92%;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
     background-color: #115C80;
+    border: none;
     color: white;
     font-size: 18px;
     cursor: pointer;
-}
-
-.contact-form button:hover {
-    background-color: #0b3f5a;
 }
 
 /* Footer */
 .footer {
     background-color: #0d1126;
     padding: 20px 0;
-    text-align: center;
     border-top: 1px solid #2c3e50;
-}
-
-.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,15 +115,31 @@ body {
     margin: auto;
 }
 
+/* Footer Left */
 .footer-left {
     text-align: left;
+    flex: 1;
 }
 
 .footer-left p {
     font-size: 14px;
     font-style: italic;
+    margin: 5px 0;
 }
 
+/* Footer Right */
+.footer-right {
+    text-align: right;
+    flex: 1;
+}
+
+.footer-right img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+/* Privacy Policy Link */
 .privacy-link {
     color: white;
     text-decoration: none;
@@ -170,10 +148,4 @@ body {
 
 .privacy-link:hover {
     text-decoration: underline;
-}
-
-/* LinkedIn Icon */
-.footer-right img {
-    width: 25px;
-    height: 25px;
 }
