@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <p>Please fill out the form below to get in touch.</p>
+	
+	{% if success %}
+    <p style="color: green; font-weight: bold;">{{ success }}</p>
+	{% endif %}
+
+	{% if error %}
+    <p style="color: red; font-weight: bold;">{{ error }}</p>
+	{% endif %}
+
+    <!-- Başarı veya Hata Mesajları -->
+    {% if success %}
+        <p style="color: green; font-weight: bold;">{{ success }}</p>
+    {% endif %}
+
+    {% if error %}
+        <p style="color: red; font-weight: bold;">{{ error }}</p>
+    {% endif %}
+
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+		
+		<label for="company">Company Name:</label>
+		<input type="text" id="company" name="company">
+
+        <label for="email">Email: <span class="required">*</span></label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="message">Message: <span class="required">*</span></label>
+		<textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
+
