@@ -1,134 +1,145 @@
-/* Genel Stiller */
+/* Global Styles */
 body {
-    font-family: 'Futura', sans-serif;
+    font-family: 'Futura Light', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    text-align: center;
 }
 
+/* Navigation Bar */
 header {
-    background-color: #1C2340;
+    background-color: #121639;
     padding: 15px;
-    text-align: center;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    text-decoration: none;
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    color: #FFC107;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFD700;
+    text-decoration: none;
 }
 
+/* Hero Section */
 .hero {
-    background-color: #136C78;
+    background-color: #0F7277;
     color: white;
-    text-align: center;
-    padding: 60px 20px;
+    padding: 80px 20px;
 }
 
 .hero h1 {
     font-family: 'Playfair Display Bold', serif;
-    font-size: 88px;
+    font-size: 56px;
     margin-bottom: 10px;
 }
 
-.hero .subheading {
+.hero .subtitle {
     font-family: 'Playfair Display', serif;
-    font-size: 21px;
+    font-size: 20px;
     font-style: italic;
 }
 
-.content-section {
+/* Sections */
+.section {
     padding: 60px 20px;
-    text-align: center;
 }
 
-.light-bg {
-    background-color: #77869B;
-    color: white;
-}
-
-.dark-bg {
-    background-color: #136C78;
-    color: white;
-}
-
-h2 {
+.section h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 46px;
+    font-size: 38px;
     font-style: italic;
 }
 
-h3 {
+.subheading {
     font-family: 'Poppins Semi Bold', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-p {
+.description {
     font-size: 18px;
-    font-family: 'Futura Light', sans-serif;
     font-style: italic;
 }
 
-.job {
-    margin-bottom: 30px;
+.grey {
+    background-color: #7A8592;
+    color: white;
 }
 
-.job a {
-    color: #FFC107;
+.teal {
+    background-color: #0F7277;
+    color: white;
+}
+
+.dark-blue {
+    background-color: #121639;
+    color: white;
+}
+
+/* Experience */
+.experience {
+    margin: 20px 0;
+}
+
+.job-title {
+    font-family: 'Poppins Semi Bold', sans-serif;
+    font-size: 18px;
     font-weight: bold;
+}
+
+.job-description {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Read More */
+.read-more {
+    font-size: 16px;
+    color: #FFD700;
     text-decoration: none;
+    font-weight: bold;
 }
 
-#contact {
-    background-color: #1C2340;
-}
-
+/* Form */
 form {
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 30px;
-    max-width: 500px;
-    margin: 0 auto;
+    padding: 20px;
     border-radius: 5px;
+    width: 40%;
+    margin: auto;
 }
 
 input, textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: none;
     border-radius: 5px;
-    background-color: #E0E3E7;
+    font-size: 16px;
 }
 
 button {
-    background-color: #136C78;
+    background-color: #0F7277;
     color: white;
-    font-size: 18px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0F4C5C;
-}
-
+/* Footer */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #1C2340;
-    color: white;
+    padding: 20px;
+    font-style: italic;
 }
