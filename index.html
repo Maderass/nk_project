@@ -3,49 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nubar Kestekyan - Business Applications Manager</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <title>Nubar Kestekyan</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Hello, I'm <span class="highlight">Nubar Kestekyan</span></h1>
+        <h2>Business Applications Manager | CRM & Digital Transformation</h2>
     </header>
 
-    <section class="hero">
-        <h1>Hello, I'm <span>Nubar Kestekyan</span></h1>
-        <p><em>Business Applications Manager | CRM & Digital Transformation</em></p>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <h3>Professional Background</h3>
+        <p>
+            I am a Business Applications & CRM Expert specialized in Dynamics 365 and Power Apps.
+            Have extensive experience in digital transformation and enterprise solutions.
+            Passionate about leveraging technology to optimize business processes and drive growth.
+        </p>
     </section>
 
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>Business Applications & Digital Transformation Specialist.</p>
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        
+        <div class="experience">
+            <h3>CRM Manager – Hyve Group PLC</h3>
+            <p class="description">
+                In this role, I led the successful implementation of Dynamics 365 and integrated business applications across multiple countries, ensuring seamless adoption and process optimization.
+            </p>
+            <a href="#">Read more</a>
+        </div>
+
+        <div class="experience">
+            <h3>CRM Administrator – Hyve Group PLC</h3>
+            <p class="description">
+                As a CRM Administrator, I was responsible for maintaining system integrity and optimizing workflows to support business operations.
+                I worked closely with stakeholders to improve digital adoption.
+            </p>
+            <a href="#">Read more</a>
+        </div>
     </section>
 
-    <section id="experience" class="experience">
-        <h2>Experience</h2>
-        <p>Professional experience in CRM, ERP, and business applications.</p>
-    </section>
-
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <p>Key skills in CRM, Dynamics 365, and digital solutions.</p>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
         <form>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit">Send</button>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="text" name="company" placeholder="Company Name">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Submit</button>
         </form>
     </section>
 
