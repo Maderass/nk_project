@@ -1,15 +1,16 @@
-/* General Styles */
+/* Genel Ayarlar */
 body {
     font-family: 'Playfair Display', serif;
+    background-color: #1C2349;
+    color: white;
     margin: 0;
     padding: 0;
-    background-color: #117380;
 }
 
 /* Header */
 header {
     background-color: #1C2349;
-    padding: 15px 0;
+    padding: 15px;
 }
 
 nav ul {
@@ -20,149 +21,119 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    font-size: 16px;
+    color: white;
+    font-weight: bold;
 }
 
 /* Hero Section */
 #hero {
     background-color: #117380;
-    color: white;
-    text-align: center;
-    padding: 80px 10%;
-}
-
-/* About, Experience, Skills Sections */
-#about, #experience, #skills {
-    padding: 60px 10%;
+    padding: 60px 0;
     text-align: center;
 }
 
-#about {
-    background-color: #8893AB;
-}
-
-#experience {
-    background-color: #117380;
-}
-
+/* Skills & Expertise Section */
 #skills {
     background-color: #8893AB;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 46px;
+    font-style: italic;
+    color: #1C2349;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.skills-column {
+    width: 30%;
+    text-align: left;
+}
+
+.skills-column h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1C2349;
+}
+
+.skills-column ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills-column ul li {
+    font-style: italic;
 }
 
 /* Contact Section */
 #contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    padding: 60px 10%;
     background-color: #117380;
-}
-
-.contact-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1100px;
+    padding: 60px 0;
+    text-align: center;
 }
 
 .contact-title {
     font-size: 50px;
-    font-weight: bold;
-    font-style: italic;
     color: #1C2349;
-    flex: 1;
-    text-align: left;
-}
-
-.contact-form-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+    font-style: italic;
 }
 
 .contact-form {
     background-color: #1C2349;
     padding: 30px;
     border-radius: 8px;
-    width: 100%;
-    max-width: 500px;
+    width: 400px;
 }
 
-.form-label {
-    display: block;
-    font-size: 16px;
+.contact-form label {
     font-weight: bold;
     color: #117380;
-    margin-bottom: 5px;
     text-align: left;
+    display: block;
 }
 
-.required {
-    color: red;
-}
-
-input, textarea {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 2px solid #117380;
-    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #117380;
+    border-radius: 4px;
     background-color: white;
-    font-size: 16px;
-    font-family: 'Playfair Display', serif;
-    color: #1C2349;
+    color: black;
 }
 
-.submit-btn {
+.contact-form button {
     width: 100%;
-    padding: 12px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
+    padding: 10px;
     background-color: #117380;
+    color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 20px;
+    font-size: 16px;
     cursor: pointer;
 }
 
-.submit-btn:hover {
-    background-color: #0e5c66;
+.contact-form button:hover {
+    background-color: #0e5f63;
 }
 
 /* Footer */
 footer {
     background-color: #1C2349;
-    padding: 20px 10%;
+    padding: 15px 0;
     text-align: center;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.footer-text {
-    color: white;
-    font-size: 14px;
-}
-
-.footer-link {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.footer-icon img {
-    width: 25px;
 }
