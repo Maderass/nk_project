@@ -53,47 +53,21 @@ section {
 
 #contact {
     background-color: #0D1224;
+    padding: 60px 20px;
 }
 
-/* Footer */
-footer {
-    background-color: #0D1224;
-    padding: 20px 0;
-    text-align: center;
-    font-size: 14px;
-    font-style: italic;
-}
-
-footer .footer-content {
+/* Contact Form */
+.contact-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
-footer .footer-content p,
-footer .footer-content a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-}
-
-footer .footer-content .privacy {
-    text-decoration: underline;
-}
-
-footer .footer-content .linkedin img {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-}
-
-/* Form */
 form {
     background: #161B38;
-    padding: 20px;
-    display: inline-block;
+    padding: 30px;
+    width: 400px;
     border-radius: 8px;
+    text-align: center;
 }
 
 form input, form textarea {
@@ -113,8 +87,44 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%;
 }
 
 form button:hover {
     background-color: #0F5560;
+}
+
+/* Footer */
+footer {
+    background-color: #0D1224;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    border-top: 2px solid #5C6676;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-container p,
+.footer-container a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container .privacy {
+    text-decoration: underline;
+}
+
+.footer-container .linkedin img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
 }
