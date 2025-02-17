@@ -1,103 +1,99 @@
-/* Genel Stiller */
+/* Genel Stil Ayarları */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1C5676;
-    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1A5276;
+    color: white;
     text-align: center;
 }
 
 /* Navbar */
 nav {
-    background-color: #0F3D5A;
-    padding: 15px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
+    background-color: #0B3C5D;
+    padding: 10px 0;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
-    color: #FFD700;
     text-decoration: none;
-    font-size: 18px;
-}
-
-/* Ana Başlık */
-#home {
-    padding: 100px 20px;
-}
-
-#home h1 {
-    font-size: 38px;
-    font-weight: bold;
-}
-
-#home h1 span {
     color: #FFD700;
+    font-weight: 600;
 }
 
-#home p {
-    font-size: 20px;
+/* Ana Bölüm */
+h1 {
+    font-size: 36px;
+    font-weight: 700;
 }
 
-/* Bölüm Başlıkları */
-section {
-    padding: 80px 20px;
-}
-
-section h2 {
+h2 {
     font-size: 28px;
-    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Vurgulu Metin */
+.highlight {
+    color: #FFD700;
+    font-weight: 700;
+}
+
+/* Bölüm Stilleri */
+section {
+    padding: 50px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* İletişim Formu */
 form {
-    background-color: #143F5A;
+    background-color: #0B3C5D;
     padding: 20px;
-    width: 60%;
+    border-radius: 8px;
+    width: 50%;
     margin: auto;
-    border-radius: 10px;
 }
 
-form label {
-    display: block;
-    font-size: 18px;
-    margin: 10px 0 5px;
-}
-
-form input, form textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
-form button {
+button {
     background-color: #FFD700;
-    color: black;
-    padding: 12px;
-    font-size: 18px;
     border: none;
+    padding: 10px 20px;
+    font-size: 18px;
     cursor: pointer;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
+button:hover {
+    background-color: #FFC107;
+}
+
+/* Footer */
 footer {
-    background-color: #0F3D5A;
-    padding: 15px 0;
-    margin-top: 20px;
+    background-color: #0B3C5D;
+    padding: 15px;
+    font-size: 14px;
 }
