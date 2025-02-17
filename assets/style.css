@@ -1,16 +1,16 @@
-/* Genel Sayfa Stilleri */
+/* Genel Stiller */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #1C5676;
+    color: #ffffff;
     margin: 0;
     padding: 0;
-    background-color: #1a4d6e;
-    color: white;
     text-align: center;
 }
 
 /* Navbar */
-header {
-    background-color: #0d3b5a;
+nav {
+    background-color: #0F3D5A;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -18,90 +18,86 @@ header {
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
 }
 
 nav ul li {
+    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
+    color: #FFD700;
     text-decoration: none;
-    font-weight: bold;
-    color: #f0c419;
+    font-size: 18px;
 }
 
-/* Hero Section */
-.hero {
-    padding: 150px 20px 100px;
+/* Ana Başlık */
+#home {
+    padding: 100px 20px;
 }
 
-.hero h1 {
-    font-size: 2.8rem;
-    margin: 0;
-}
-
-.highlight {
-    color: #f0c419;
+#home h1 {
+    font-size: 38px;
     font-weight: bold;
 }
 
-.subtitle {
-    font-size: 1.2rem;
-    margin-top: 10px;
+#home h1 span {
+    color: #FFD700;
 }
 
-/* Bölüm Stilleri */
+#home p {
+    font-size: 20px;
+}
+
+/* Bölüm Başlıkları */
 section {
-    padding: 60px 20px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 80px 20px;
 }
 
-/* Form Stilleri */
+section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* İletişim Formu */
 form {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: 0 auto;
-    background: white;
+    background-color: #143F5A;
     padding: 20px;
+    width: 60%;
+    margin: auto;
     border-radius: 10px;
 }
 
-label {
-    color: #0d3b5a;
-    font-weight: bold;
-    margin-bottom: 5px;
+form label {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0 5px;
 }
 
-input, textarea {
+form input, form textarea {
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: none;
     border-radius: 5px;
-    font-size: 1rem;
-    width: 100%;
 }
 
-button {
-    background-color: #f0c419;
-    padding: 10px;
-    font-size: 1.2rem;
+form button {
+    background-color: #FFD700;
+    color: black;
+    padding: 12px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
+    width: 100%;
     border-radius: 5px;
-    color: black;
-    font-weight: bold;
 }
 
-/* Footer */
 footer {
-    background-color: #0d3b5a;
-    padding: 20px;
-    text-align: center;
-    color: white;
+    background-color: #0F3D5A;
+    padding: 15px 0;
+    margin-top: 20px;
 }
