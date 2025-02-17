@@ -1,139 +1,109 @@
-/* Genel Stil */
 body {
     margin: 0;
-    padding: 0;
-    font-family: 'Futura', sans-serif;
-    color: white;
+    font-family: 'Georgia', serif;
     text-align: center;
+    color: white;
 }
 
-/* Navbar */
 header {
-    background-color: #12163A;
-    padding: 20px 0;
+    background-color: #13153c;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: gold;
+    color: #f5c518;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
-/* Hero Bölümü */
 .hero {
-    background-color: #0F6674;
-    padding: 100px 20px;
+    background-color: #126c80;
+    padding: 150px 20px;
 }
 
 .hero h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.hero h2 {
-    font-size: 20px;
-    font-style: italic;
-    margin-top: 10px;
-}
-
-/* Bölüm Başlıkları */
-h3 {
-    font-family: 'Playfair Display', serif;
     font-size: 36px;
-    font-style: italic;
-    margin-top: 40px;
+    font-weight: bold;
 }
 
-/* About, Experience, Skills Bölümleri */
-#about, #skills {
-    background-color: #6C758F;
-    padding: 60px 20px;
+.subtitle {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.content-section {
+    padding: 80px 20px;
+}
+
+.light-gray {
+    background-color: #757c91;
     color: white;
 }
 
-#experience {
-    background-color: #0F6674;
-    padding: 60px 20px;
+.teal {
+    background-color: #126c80;
+    color: white;
 }
 
-#about p, #experience p, #skills p {
-    font-size: 18px;
-    line-height: 1.6;
-    width: 80%;
-    margin: auto;
+.dark-blue {
+    background-color: #13153c;
+    color: white;
+}
+
+h2 {
+    font-size: 28px;
+    font-style: italic;
 }
 
 .subheading {
     font-weight: bold;
+    font-size: 16px;
 }
 
-/* Read More Düğmesi */
-.read-more {
-    display: inline-block;
-    margin-top: 10px;
+a {
+    color: #f5c518;
     font-weight: bold;
-    color: gold;
-    text-decoration: none;
-}
-
-.read-more:hover {
-    text-decoration: underline;
-}
-
-/* İletişim Formu */
-#contact {
-    background-color: #12163A;
-    padding: 60px 20px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    width: 40%;
-    margin: auto;
+    background-color: #252849;
     padding: 30px;
-    background-color: #1F233D;
+    display: inline-block;
     border-radius: 10px;
 }
 
 input, textarea {
     width: 100%;
-    padding: 12px;
-    border: none;
+    margin: 10px 0;
+    padding: 10px;
     border-radius: 5px;
+    border: none;
 }
 
 button {
-    background-color: #0F6674;
+    background-color: #126c80;
     color: white;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
-button:hover {
-    background-color: #0c5563;
-}
-
-/* Footer */
 footer {
-    background-color: #12163A;
     padding: 20px;
-    font-size: 14px;
     font-style: italic;
 }
