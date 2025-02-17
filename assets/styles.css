@@ -1,83 +1,108 @@
-/* Futura Fontu ve Alternatifleri */
+/* Genel Stil */
 body {
-    font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
-    background-color: #154c66;
+    font-family: 'Futura Light', sans-serif;
+    background-color: #117380;
     color: #ffffff;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-/* Navbar */
+/* Header */
+header {
+    background-color: #1C2349;
+    padding: 20px 0;
+}
+
 nav ul {
-    list-style-type: none;
-    padding: 20px;
-    background-color: #103e55;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #ffc107;
+    color: #f5c000;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Hero Section */
+/* Hero Bölümü */
 #hero {
-    padding: 50px 20px;
+    background-color: #117380;
+    padding: 60px 20px;
 }
 
-#hero h1 {
+h1 {
     font-size: 36px;
 }
 
-.highlight {
-    color: #ffc107;
+h1 .highlight {
+    color: #f5c000;
 }
 
-/* Sections */
+h2 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+/* Bölümler */
 section {
-    padding: 40px;
-    margin: 20px auto;
-    width: 80%;
-    background-color: #1b5b78;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px 20px;
 }
 
-/* Contact Form */
+#about {
+    background-color: #8893AB;
+    color: #ffffff;
+}
+
+#experience {
+    background-color: #117380;
+}
+
+#skills {
+    background-color: #8893AB;
+}
+
+#contact {
+    background-color: #1C2349;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 input, textarea {
-    width: 80%;
+    width: 100%;
     padding: 10px;
+    margin: 10px 0;
     border: none;
     border-radius: 5px;
 }
 
 button {
-    background-color: #ffc107;
-    color: black;
+    background-color: #f5c000;
+    color: #1C2349;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4a600;
 }
 
 /* Footer */
 footer {
-    background-color: #103e55;
+    background-color: #1C2349;
     padding: 10px;
-    margin-top: 20px;
+    font-size: 14px;
 }
