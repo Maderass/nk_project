@@ -7,9 +7,9 @@ body {
     padding: 0;
 }
 
-/* Navbar */
+/* Navbar (Header) */
 nav {
-    background-color: #0C0F1A;
+    background-color: #1C2349;
     text-align: center;
     padding: 20px 0;
 }
@@ -70,13 +70,13 @@ nav a:hover {
 
 /* Contact Bölümü */
 .contact {
-    background-color: #117380;
+    background-color: #1C2349;
     text-align: center;
     padding: 80px 20px;
 }
 
 .contact-form {
-    background-color: #0C0F1A;
+    background-color: #1C2349;
     padding: 30px;
     border-radius: 10px;
     width: 40%;
@@ -108,7 +108,7 @@ nav a:hover {
 
 /* Footer */
 footer {
-    background-color: #0C0F1A;
+    background-color: #1C2349;
     padding: 20px;
     text-align: center;
     font-size: 14px;
