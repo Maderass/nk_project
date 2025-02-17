@@ -1,7 +1,7 @@
-/* Genel Stil */
+/* Genel Ayarlar */
 body {
     font-family: 'Playfair Display', serif;
-    background-color: #0d1126;
+    background-color: #0D1128;
     color: white;
     margin: 0;
     padding: 0;
@@ -10,116 +10,174 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #0d1126;
-    padding: 15px 0;
+    background-color: #0D1128;
+    padding: 15px;
+    text-align: center;
 }
 
 .navbar ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: none;
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
 }
 
 .navbar ul li {
-    margin: 0 20px;
+    display: inline;
+    margin: 0 15px;
 }
 
 .navbar ul li a {
-    font-size: 22px;
-    text-decoration: none;
-    font-style: italic;
-    font-weight: bold;
     color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-/* Hero Section */
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Bölümü */
 .hero {
     background-color: #115C80;
     padding: 60px 20px;
 }
 
 .hero h1 {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bold;
+    margin: 10px 0;
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
 }
 
-/* Genel Bölüm Stili */
+/* Genel Bölüm Ayarları */
 .section {
-    padding: 60px 20px;
-    background-color: #3d475d;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .section h2 {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
-    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* About Bölümü */
+#about {
+    background-color: #5D647F;
 }
 
 /* Experience Bölümü */
-.experience {
+#experience {
     background-color: #115C80;
-    padding: 20px;
+}
+
+.experience {
     margin: 20px auto;
-    width: 50%;
-    border-radius: 10px;
+    max-width: 800px;
 }
 
 .experience h3 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .experience p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
-/* Contact Form */
+/* Skills Bölümü */
+#skills {
+    background-color: #5D647F;
+}
+
+#skills p {
+    font-size: 18px;
+}
+
+/* İletişim Formu */
+.contact-section {
+    background-color: #0D1128;
+    padding: 50px 20px;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
 .contact-form {
-    background-color: #141b2d;
-    padding: 30px;
-    border-radius: 10px;
-    width: 40%;
+    max-width: 600px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 20px;
+    background-color: #11162B;
+    border-radius: 10px;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 90%;
+    width: 100%;
     padding: 10px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
-    background-color: #1f283e;
+    margin-bottom: 10px;
+    background-color: #1A1F36;
     color: white;
+    border: 1px solid #5D647F;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 .contact-form button {
-    width: 92%;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
     background-color: #115C80;
     color: white;
     font-size: 18px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .contact-form button:hover {
-    background-color: #0b3f5a;
+    background-color: #0A4A66;
 }
 
 /* Footer */
 .footer {
-    background-color: #0d1126
-::contentReference[oaicite:0]{index=0}
- 
+    background-color: #0D1128;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* LinkedIn İkonu */
+.linkedin-icon {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.linkedin-icon img {
+    width: 24px;
+    height: 24px;
+}
