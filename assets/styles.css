@@ -1,16 +1,17 @@
-/* Genel Sayfa Stili */
+/* Genel Stil */
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
+    background-color: #0d1126;
+    color: white;
     margin: 0;
     padding: 0;
-    background-color: #0B0F26;
-    color: white;
+    text-align: center;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #0B0F26;
-    padding: 20px 0;
+    background-color: #0d1126;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -26,40 +27,86 @@ body {
 }
 
 .navbar ul li a {
+    font-size: 22px;
     text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
     color: white;
-    font-size: 35px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #115C80;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Genel Bölüm Stili */
+.section {
+    padding: 60px 20px;
+    background-color: #3d475d;
+}
+
+.section h2 {
+    font-size: 30px;
     font-weight: bold;
     font-style: italic;
 }
 
-/* Ana Bölüm */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+/* Experience Bölümü */
+.experience {
+    background-color: #115C80;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
 }
 
-/* İletişim Formu */
-.contact-section {
-    background-color: #0B0F26;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.contact-section h2 {
-    font-size: 30px;
+.experience h3 {
+    font-size: 22px;
     font-weight: bold;
 }
 
-/* Form Alanı */
+.experience p {
+    font-size: 16px;
+}
+
+.experience a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFD700;
+    text-decoration: none;
+}
+
+/* Skills Bölümü */
+#skills {
+    background-color: #3d475d;
+    padding: 50px;
+}
+
+#skills p {
+    font-size: 18px;
+}
+
+/* Contact Form */
+.contact-section {
+    background-color: #0d1126;
+    padding: 50px 0;
+}
+
 .contact-form {
-    background-color: #10162F;
+    background-color: #141b2d;
     padding: 30px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 40%;
     margin: auto;
 }
@@ -71,85 +118,62 @@ body {
     margin: 10px 0;
     border: none;
     border-radius: 5px;
-    background-color: #1A2238;
+    background-color: #1f283e;
     color: white;
-    font-size: 16px;
-}
-
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-    color: #B0B3C6;
 }
 
 .contact-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #127B80;
+    width: 92%;
+    padding: 12px;
     border: none;
     border-radius: 5px;
+    background-color: #115C80;
     color: white;
     font-size: 18px;
     cursor: pointer;
 }
 
 .contact-form button:hover {
-    background-color: #0A5D63;
+    background-color: #0b3f5a;
 }
 
 /* Footer */
 .footer {
-    background-color: #0B0F26;
+    background-color: #0d1126;
     padding: 20px 0;
     text-align: center;
-    font-size: 14px;
-    font-style: italic;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid #2c3e50;
 }
 
-/* Footer İçerik Hizalama */
 .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
 }
 
-/* Copyright Bilgisi */
 .footer-left {
     text-align: left;
 }
 
-.footer-right {
-    text-align: right;
-}
-
-/* LinkedIn İkonu */
-.footer-right img {
-    width: 24px; /* Küçük ve orantılı */
-    height: auto;
-    vertical-align: middle;
-    margin-left: 10px;
-}
-
-/* Privacy Policy */
-.privacy-link {
-    text-decoration: underline;
+.footer-left p {
+    font-size: 14px;
     font-style: italic;
 }
 
-/* Responsive Tasarım */
-@media (max-width: 768px) {
-    .contact-form {
-        width: 90%;
-    }
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-    .footer-left,
-    .footer-right {
-        text-align: center;
-        margin: 5px 0;
-    }
+.privacy-link {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.privacy-link:hover {
+    text-decoration: underline;
+}
+
+/* LinkedIn Icon */
+.footer-right img {
+    width: 25px;
+    height: 25px;
 }
