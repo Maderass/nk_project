@@ -78,9 +78,9 @@ nav ul li a {
     font-style: italic;
 }
 
-/* Contact Section (Now Separate) */
+/* Contact Section */
 #contact {
-    background-color: #1C2349;
+    background-color: #117380;
     padding: 50px 20px;
 }
 
@@ -114,7 +114,7 @@ button {
     font-size: 18px;
 }
 
-/* Footer (Now Independent) */
+/* Footer */
 footer {
     background-color: #1C2349;
     padding: 20px;
