@@ -90,18 +90,31 @@ nav ul li a {
 }
 
 form {
-    max-width: 500px;
+    max-width: 450px;
     margin: auto;
     background-color: #1C2349;
-    padding: 20px;
+    padding: 25px;
     border-radius: 5px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #117380;
+}
+
+.required {
+    color: red;
 }
 
 input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #117380;
+    border: none;
+    border-bottom: 2px solid #117380;
     background-color: rgba(200, 200, 200, 0.2);
     color: white;
     font-size: 16px;
@@ -111,11 +124,12 @@ input, textarea {
 button {
     background-color: #117380;
     color: white;
-    padding: 10px;
+    padding: 12px;
     border: none;
     font-size: 18px;
     cursor: pointer;
     width: 100%;
+    border-radius: 25px;
 }
 
 button:hover {

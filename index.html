@@ -58,10 +58,18 @@
     <section id="contact">
         <h2>Get in Touch</h2>
         <form action="#" method="POST">
-            <input type="text" name="name" placeholder="Full Name" required>
-            <input type="text" name="company" placeholder="Company Name">
-            <input type="email" name="email" placeholder="Email Address" required>
-            <textarea name="message" placeholder="Message" required></textarea>
+            <label for="name">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company" placeholder="Company Name">
+
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+
             <button type="submit">Submit</button>
         </form>
     </section>
