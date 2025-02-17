@@ -20,43 +20,57 @@
         </nav>
     </header>
 
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <h1>Hello, I'm Nubar Kostekyan</h1>
+            <p>Business Applications Manager | CRM & Digital Transformation</p>
+        </div>
+    </section>
+
     <!-- About Section -->
     <section id="about">
-        <h2>About</h2>
-        <p>Short introduction about your background and expertise.</p>
+        <div class="section-container">
+            <h2>About Me</h2>
+            <p>With extensive experience in CRM, Dynamics 365, and digital transformation, I specialize in optimizing business applications to enhance efficiency and performance.</p>
+        </div>
     </section>
 
     <!-- Experience Section -->
     <section id="experience">
-        <h2>Professional Experience</h2>
-        <p>Summary of your work experience and roles.</p>
+        <div class="section-container">
+            <h2>Professional Experience</h2>
+            <p>Having led multiple enterprise-level CRM implementations, I focus on delivering business transformation strategies and managing high-performing teams.</p>
+        </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills">
-        <h2>Skills</h2>
-        <p>Key skills in CRM, Dynamics 365, and digital solutions.</p>
+        <div class="section-container">
+            <h2>Skills</h2>
+            <p>Key skills in CRM, Dynamics 365, and digital solutions.</p>
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <div class="contact-container">
             <h2 class="contact-title">Get in Touch</h2>
-            <div class="contact-form">
-                <form>
-                    <label for="name">Name <span>*</span></label>
-                    <input type="text" id="name" name="name" required>
+            <div class="contact-form-container">
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name" class="form-label">Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    
+                    <label for="company" class="form-label">Company Name</label>
+                    <input type="text" id="company" name="company" placeholder="Company Name">
 
-                    <label for="company">Company Name</label>
-                    <input type="text" id="company" name="company">
+                    <label for="email" class="form-label">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    
+                    <label for="message" class="form-label">Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
 
-                    <label for="email">Email <span>*</span></label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="message">Message <span>*</span></label>
-                    <textarea id="message" name="message" required></textarea>
-
-                    <button type="submit">Submit</button>
+                    <button type="submit" class="submit-btn">Submit</button>
                 </form>
             </div>
         </div>
@@ -65,9 +79,9 @@
     <!-- Footer -->
     <footer>
         <div class="footer-container">
-            <a href="#" class="privacy-policy">Privacy Policy</a>
-            <p>© 2025 Nubar Kostekyan | All Rights Reserved.</p>
-            <a href="https://www.linkedin.com" target="_blank">
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <p class="footer-text">© 2025 Nubar Kostekyan | All Rights Reserved.</p>
+            <a href="https://linkedin.com" class="footer-icon">
                 <img src="assets/linkedin-icon.png" alt="LinkedIn">
             </a>
         </div>
