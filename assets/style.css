@@ -1,114 +1,105 @@
-/* Genel Sayfa Stilleri */
+/* Genel Stiller */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1E4D6B;
-    color: #ffffff;
+    background-color: #1E4E66;
+    color: #fff;
     text-align: center;
 }
 
-/* Navigasyon */
-header {
-    background-color: #0F3B58;
+/* Navbar */
+nav {
+    background-color: #0D3043;
     padding: 15px 0;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
 }
 
 nav ul li {
+    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
+    color: #FFD700;
     text-decoration: none;
-    color: #FFC107;
     font-weight: bold;
-    font-size: 18px;
 }
 
-/* Hero Bölümü */
-.hero {
-    padding: 80px 20px;
-    background-color: #1E4D6B;
+/* Ana Başlık */
+header {
+    padding: 50px 20px;
 }
 
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+header h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
 }
 
 .highlight {
-    color: #FFC107;
-    font-weight: bold;
+    color: #FFD700;
 }
 
 /* Bölümler */
-.section {
-    padding: 80px 20px;
-    background-color: #236086;
-    margin: 20px 0;
+section {
+    padding: 50px 20px;
+    margin-bottom: 40px;
+    background-color: #245B78;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h2 {
-    font-size: 28px;
-}
-
-/* Form Stili */
+/* Form Tasarımı */
 form {
-    background-color: #0F3B58;
-    padding: 20px;
+    background-color: #1C3B50;
+    padding: 25px;
     border-radius: 10px;
-    width: 60%;
-    margin: 20px auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 form label {
-    display: block;
-    margin: 10px 0 5px;
     font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
-}
-
-form textarea {
-    height: 100px;
+    font-size: 1rem;
 }
 
 form button {
-    background-color: #FFC107;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 20px;
+    background-color: #FFD700;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 12px;
     width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 form button:hover {
-    background-color: #E0A800;
+    background-color: #E6C200;
 }
 
 /* Footer */
 footer {
-    background-color: #0F3B58;
-    padding: 15px 0;
-    margin-top: 20px;
-    font-size: 14px;
+    background-color: #0D3043;
+    padding: 10px;
+    margin-top: 30px;
 }
