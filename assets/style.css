@@ -1,22 +1,26 @@
-/* Genel Stiller */
+/* Genel Ayarlar */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    background-color: #1E4E66;
+    color: #ffffff;
     margin: 0;
     padding: 0;
-    background-color: #1E4E66;
-    color: #fff;
     text-align: center;
 }
 
-/* Navbar */
-nav {
-    background-color: #0D3043;
-    padding: 15px 0;
+/* İtalik Stil */
+.italic-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 21px;
 }
 
+/* Navbar */
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
+    background-color: #0F3B4B;
 }
 
 nav ul li {
@@ -25,81 +29,82 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFD700;
+    color: #FFC107;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
 }
 
-/* Ana Başlık */
-header {
-    padding: 50px 20px;
+/* Hero Bölümü */
+.hero {
+    padding: 50px;
+    font-size: 22px;
 }
 
-header h1 {
-    font-size: 2.8rem;
-    font-weight: bold;
+.hero h1 {
+    font-size: 42px;
+    font-weight: 600;
 }
 
-.highlight {
-    color: #FFD700;
+.hero span {
+    color: #FFC107;
 }
 
-/* Bölümler */
-section {
-    padding: 50px 20px;
-    margin-bottom: 40px;
-    background-color: #245B78;
-    border-radius: 8px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+/* İçerik Kartları */
+.content-box {
+    background-color: #245E77;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 60%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Form Tasarımı */
-form {
-    background-color: #1C3B50;
-    padding: 25px;
-    border-radius: 10px;
+/* Form Alanı */
+.contact-box {
+    background-color: #1C4A5E;
+    padding: 30px;
+    margin: 20px auto;
     width: 50%;
-    margin: auto;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-form label {
-    font-weight: bold;
-    display: block;
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
     text-align: left;
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
-form input,
-form textarea {
-    width: 100%;
+input, textarea {
     padding: 10px;
     margin-bottom: 15px;
     border: none;
-    border-radius: 5px;
-    font-size: 1rem;
+    border-radius: 6px;
+    font-size: 16px;
 }
 
-form button {
-    background-color: #FFD700;
-    border: none;
+button {
+    background-color: #FFC107;
+    color: black;
     padding: 12px;
-    width: 100%;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
     cursor: pointer;
-    border-radius: 5px;
+    font-weight: 600;
 }
 
-form button:hover {
-    background-color: #E6C200;
+button:hover {
+    background-color: #E0A800;
 }
 
 /* Footer */
 footer {
-    background-color: #0D3043;
-    padding: 10px;
-    margin-top: 30px;
+    background-color: #0F3B4B;
+    padding: 15px;
+    margin-top: 20px;
 }
