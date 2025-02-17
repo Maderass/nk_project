@@ -1,109 +1,118 @@
+/* GENEL STİLLER */
 body {
     margin: 0;
-    font-family: 'Georgia', serif;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
     text-align: center;
+    background-color: #0F172A;
     color: white;
 }
 
+/* HEADER / NAVBAR */
 header {
-    background-color: #13153c;
-    padding: 20px;
+    background-color: #0F172A;
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 nav ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #f5c518;
     text-decoration: none;
+    color: #FFFFFF;
+    font-size: 35px;
     font-weight: bold;
-}
-
-.hero {
-    background-color: #126c80;
-    padding: 150px 20px;
-}
-
-.hero h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.subtitle {
     font-style: italic;
-    font-size: 18px;
+    transition: 0.3s;
 }
 
-.content-section {
-    padding: 80px 20px;
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-.light-gray {
-    background-color: #757c91;
+/* ANA BÖLÜMLER */
+section {
+    padding: 100px 20px;
+}
+
+/* HERO SECTION */
+#hero {
+    background-color: #0D5C75;
+    padding: 200px 20px;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#hero p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+/* ABOUT, EXPERIENCE, SKILLS */
+#about, #skills {
+    background-color: #6F7C94;
     color: white;
 }
 
-.teal {
-    background-color: #126c80;
-    color: white;
-}
-
-.dark-blue {
-    background-color: #13153c;
-    color: white;
+#experience {
+    background-color: #0D5C75;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 40px;
+    font-weight: bold;
     font-style: italic;
 }
 
-.subheading {
-    font-weight: bold;
-    font-size: 16px;
-}
-
-a {
-    color: #f5c518;
-    font-weight: bold;
-}
-
+/* FORM STİLLERİ */
 form {
-    background-color: #252849;
-    padding: 30px;
-    display: inline-block;
-    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 input, textarea {
     width: 100%;
-    margin: 10px 0;
     padding: 10px;
-    border-radius: 5px;
     border: none;
+    border-radius: 5px;
 }
 
 button {
-    background-color: #126c80;
+    background-color: #0D5C75;
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
 }
 
+button:hover {
+    background-color: #094654;
+}
+
+/* FOOTER */
 footer {
+    background-color: #0F172A;
     padding: 20px;
-    font-style: italic;
+    font-size: 16px;
+    color: white;
 }
