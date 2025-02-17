@@ -1,21 +1,20 @@
-/* Genel Ayarlar */
+/* Genel Stiller */
 body {
-    font-family: 'Futura Light', sans-serif;
-    background-color: #115C80;
-    color: white;
+    font-family: 'Futura', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1C2340;
+    padding: 15px;
     text-align: center;
 }
 
-/* Navbar */
-nav {
-    background-color: #1C2349;
-    padding: 15px 0;
-}
-
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    margin: 0;
     padding: 0;
 }
 
@@ -25,93 +24,83 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: 'Playfair Display', serif;
-    font-size: 35px;
-    font-weight: bold;
     text-decoration: none;
-    color: gold;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #FFC107;
 }
 
-/* Header */
-header {
-    background-color: #157A8A;
-    padding: 50px 0;
+.hero {
+    background-color: #136C78;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
 }
 
-header h1 {
+.hero h1 {
     font-family: 'Playfair Display Bold', serif;
     font-size: 88px;
-    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-header h2 {
+.hero .subheading {
     font-family: 'Playfair Display', serif;
     font-size: 21px;
     font-style: italic;
 }
 
-/* About Section */
-#about {
-    background-color: #8893AB;
-    padding: 50px;
+.content-section {
+    padding: 60px 20px;
+    text-align: center;
 }
 
-#about h2 {
+.light-bg {
+    background-color: #77869B;
+    color: white;
+}
+
+.dark-bg {
+    background-color: #136C78;
+    color: white;
+}
+
+h2 {
     font-family: 'Playfair Display', serif;
     font-size: 46px;
     font-style: italic;
 }
 
-#about p {
-    font-size: 21px;
-    font-style: italic;
-}
-
-/* Experience Section */
-#experience {
-    background-color: #157A8A;
-    padding: 50px;
-}
-
-#experience h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 46px;
-    font-style: italic;
-}
-
-.experience h3 {
+h3 {
     font-family: 'Poppins Semi Bold', sans-serif;
     font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
 }
 
-.experience p {
-    font-family: 'Futura Light', sans-serif;
+p {
     font-size: 18px;
+    font-family: 'Futura Light', sans-serif;
     font-style: italic;
 }
 
-/* Contact Section */
+.job {
+    margin-bottom: 30px;
+}
+
+.job a {
+    color: #FFC107;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 #contact {
-    background-color: #1C2349;
-    padding: 50px;
+    background-color: #1C2340;
 }
 
-#contact h2 {
-    font-family: 'Playfair Display Bold', serif;
-    font-size: 50px;
-    font-style: italic;
-}
-
-/* Form */
 form {
-    background-color: #1C2349;
-    padding: 20px;
-    max-width: 600px;
-    margin: auto;
-    border-radius: 0px;
-    border: 2px solid rgba(136, 147, 171, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 input, textarea {
@@ -119,31 +108,27 @@ input, textarea {
     padding: 10px;
     margin: 10px 0;
     border: none;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 16px;
-    color: black;
-}
-
-textarea {
-    height: 100px;
+    border-radius: 5px;
+    background-color: #E0E3E7;
 }
 
 button {
-    background-color: #157A8A;
+    background-color: #136C78;
     color: white;
+    font-size: 18px;
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
 }
 
 button:hover {
-    background-color: #115C80;
+    background-color: #0F4C5C;
 }
 
-/* Footer */
 footer {
-    background-color: #1C2349;
-    padding: 20px;
-    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    background-color: #1C2340;
+    color: white;
 }
