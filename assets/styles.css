@@ -1,140 +1,145 @@
-/* General Styles */
+/* Genel Stil */
 body {
     font-family: 'Playfair Display', serif;
-    background-color: #0C0E19;
+    background-color: #0C0F1A;
     color: white;
     margin: 0;
     padding: 0;
+}
+
+/* Navbar */
+nav {
+    background-color: #0C0F1A;
     text-align: center;
+    padding: 20px 0;
 }
 
-/* Navigation */
-header {
-    background-color: #0C0E19;
-    padding: 15px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-nav ul li a {
+nav a {
     color: white;
-    font-size: 35px;
+    font-size: 22px;
     font-weight: bold;
-    font-style: italic;
     text-decoration: none;
+    margin: 0 20px;
+    font-style: italic;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+nav a:hover {
+    color: #D4AF37;
 }
 
-/* Hero Section */
+/* Hero Bölümü */
 .hero {
-    background-color: #115C80;
-    padding: 60px 20px;
+    background-color: #117380;
+    text-align: center;
+    padding: 100px 20px;
 }
 
 .hero h1 {
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
 }
 
-/* Sections */
-.section {
-    padding: 50px 20px;
-}
-
+/* About Bölümü */
 .about {
-    background-color: #5B6178;
+    background-color: #8893AB;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
 }
 
+/* Experience Bölümü */
 .experience {
-    background-color: #115C80;
+    background-color: #117380;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
 }
 
+/* Skills Bölümü */
 .skills {
-    background-color: #5B6178;
+    background-color: #8893AB;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
 }
 
+/* Contact Bölümü */
 .contact {
-    background-color: #0C0E19;
+    background-color: #117380;
+    text-align: center;
+    padding: 80px 20px;
 }
 
-/* Contact Form */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    max-width: 500px;
+.contact-form {
+    background-color: #0C0F1A;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
     margin: auto;
 }
 
-form input, form textarea {
+.contact-form input, .contact-form textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #1B1E2F;
     border: none;
-    background-color: #1A1D2E;
     color: white;
-    font-size: 16px;
 }
 
-form button {
-    background-color: #115C80;
+.contact-form button {
+    background-color: #1B998B;
     color: white;
+    padding: 10px;
     border: none;
-    padding: 15px;
     width: 100%;
     font-size: 18px;
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: #0A3A56;
+.contact-form button:hover {
+    background-color: #117380;
 }
 
 /* Footer */
 footer {
-    background-color: #0C0E19;
+    background-color: #0C0F1A;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #D4AF37;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 .footer-content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 15px;
+    width: 80%;
+    margin: auto;
 }
 
-.footer-content p {
-    font-size: 14px;
-    font-style: italic;
+.footer-left {
+    text-align: left;
 }
 
-.footer-content a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    font-style: italic;
+.footer-right {
+    text-align: right;
 }
 
-.footer-content img {
-    width: 24px;
-    height: 24px;
+.footer-right img {
+    width: 30px;
+    height: auto;
 }
