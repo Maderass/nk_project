@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nubar Kostekyan | Portfolio</title>
+    <title>Nubar Kostekyan</title>
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -20,29 +20,16 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <h1>Hello, I'm Nubar Kostekyan</h1>
-        <p><em>Business Applications Manager | CRM & Digital Transformation</em></p>
-    </section>
-
     <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>Experienced in CRM, digital transformation, and business applications.</p>
+        <h2>About</h2>
+        <p>Short introduction about your background and expertise.</p>
     </section>
 
     <!-- Experience Section -->
     <section id="experience">
         <h2>Professional Experience</h2>
-        <div class="job">
-            <h3>Senior CRM Manager</h3>
-            <p>Managed CRM implementations and business transformations.</p>
-        </div>
-        <div class="job">
-            <h3>Project Manager</h3>
-            <p>Led multiple CRM & ERP projects.</p>
-        </div>
+        <p>Summary of your work experience and roles.</p>
     </section>
 
     <!-- Skills Section -->
@@ -53,34 +40,34 @@
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Get in Touch</h2>
-        <form action="#" method="POST">
-            <label for="name">Name <span class="required">*</span></label>
-            <input type="text" id="name" name="name" placeholder="Full Name" required>
+        <div class="contact-container">
+            <h2 class="contact-title">Get in Touch</h2>
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name <span>*</span></label>
+                    <input type="text" id="name" name="name" required>
 
-            <label for="company">Company Name</label>
-            <input type="text" id="company" name="company" placeholder="Company Name">
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company">
 
-            <label for="email">Email <span class="required">*</span></label>
-            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    <label for="email">Email <span>*</span></label>
+                    <input type="email" id="email" name="email" required>
 
-            <label for="message">Message <span class="required">*</span></label>
-            <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    <label for="message">Message <span>*</span></label>
+                    <textarea id="message" name="message" required></textarea>
 
-            <button type="submit">Submit</button>
-        </form>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-left">
-            <a href="#">Privacy Policy</a>
-        </div>
-        <div class="footer-center">
-            © 2025 Nubar Kostekyan | All Rights Reserved.
-        </div>
-        <div class="footer-right">
-            <a href="https://linkedin.com/in/nubarkostekyan" target="_blank">
+        <div class="footer-container">
+            <a href="#" class="privacy-policy">Privacy Policy</a>
+            <p>© 2025 Nubar Kostekyan | All Rights Reserved.</p>
+            <a href="https://www.linkedin.com" target="_blank">
                 <img src="assets/linkedin-icon.png" alt="LinkedIn">
             </a>
         </div>
