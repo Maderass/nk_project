@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nubar Kostekyan</title>
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header -->
+    <!-- HEADER -->
     <header>
-        <nav class="nav-bar">
-            <ul class="nav-links">
+        <nav class="navbar">
+            <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -20,68 +23,60 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- HERO -->
     <section class="hero">
         <h1>Hello, I'm Nubar Kostekyan</h1>
         <p><em>Business Applications Manager | CRM & Digital Transformation</em></p>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
+    <!-- ABOUT -->
+    <section id="about" class="content-section">
         <h2>About</h2>
-        <p class="section-text">
+        <p class="about-text">
             I am a Business Applications & CRM Expert specialized in Dynamics 365 and Power Apps. 
-            Have extensive experience in digital transformation and enterprise solutions.
+            Have extensive experience in digital transformation and enterprise solutions. 
             Passionate about leveraging technology to optimize business processes and drive growth.
         </p>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section">
+    <!-- EXPERIENCE -->
+    <section id="experience" class="content-section">
         <h2>Professional Experience</h2>
-        <div class="experience-item">
+        <div class="experience">
             <h3>CRM Manager – Hyve Group PLC</h3>
-            <p>In this role, I led the successful implementation of Dynamics 365 and integrated 
-               business applications across multiple countries, ensuring seamless adoption and process optimization.
-            </p>
+            <p>In this role, I led the successful implementation of Dynamics 365 and integrated business applications across multiple countries, ensuring seamless adoption and process optimization.</p>
         </div>
-        <div class="experience-item">
+        <div class="experience">
             <h3>CRM Administrator – Hyve Group PLC</h3>
-            <p>As a CRM Administrator, I was responsible for maintaining system integrity and optimizing workflows to support business operations. 
-               I worked closely with stakeholders to improve digital adoption.
-            </p>
+            <p>As a CRM Administrator, I was responsible for maintaining system integrity and optimizing workflows to support business operations. I worked closely with stakeholders to improve digital adoption.</p>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
+    <!-- SKILLS -->
+    <section id="skills" class="content-section">
         <h2>Skills</h2>
         <p>Key skills in CRM, Dynamics 365, and digital solutions.</p>
     </section>
 
-    <!-- Contact Form Section -->
-    <section id="contact" class="contact-section">
+    <!-- CONTACT FORM -->
+    <section id="contact" class="content-section">
         <h2>Get in Touch</h2>
         <form class="contact-form">
-            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Full Name" required>
             <input type="text" placeholder="Company Name">
-            <input type="email" placeholder="Email Address">
-            <textarea placeholder="Message"></textarea>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Message" required></textarea>
             <button type="submit">Submit</button>
         </form>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-left">
-            <p>© 2025 Nubar Kostekyan | All Rights Reserved.</p>
-            <a href="#" class="privacy-link">Privacy Policy</a>
-        </div>
-        <div class="footer-right">
-            <a href="https://linkedin.com/in/nubarkostekyan" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-            </a>
-        </div>
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Nubar Kostekyan | All Rights Reserved.</p>
+        <a href="privacy-policy.html" class="privacy-policy">Privacy Policy</a>
+        <a href="https://www.linkedin.com/in/nubarkostekyan" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+        </a>
     </footer>
 
 </body>
