@@ -1,16 +1,14 @@
-/* Genel Stiller */
+/* Genel Ayarlar */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #1C2349; /* Arka plan rengini koyu mavi yaptık */
-    color: white;
 }
 
 /* Header */
 header {
-    background-color: #1C2349; /* Header koyu mavi */
+    background-color: #1C2349;
     padding: 15px 0;
 }
 
@@ -26,77 +24,83 @@ nav ul li {
 }
 
 nav ul li a {
+    color: #FFC72C;
     text-decoration: none;
-    color: #FDCB02; /* Sarı tonuyla vurgulama */
     font-weight: bold;
 }
 
-/* Hero (Giriş Bölümü) */
+/* Hero Bölümü */
 .hero {
-    background-color: #117380; /* Wix’teki gibi koyu mavi-yeşil ton */
-    padding: 60px 20px;
+    background-color: #117380;
+    color: white;
+    padding: 50px 20px;
 }
 
 .hero h1 {
-    font-size: 36px;
-    margin: 0;
+    font-size: 2.5rem;
 }
 
-.hero h2 {
-    font-size: 20px;
-    font-style: italic;
+.hero h1 span {
+    color: #FFC72C;
 }
 
-/* Bölüm Stilleri */
-.section {
-    padding: 60px 20px;
+/* About, Experience, Skills Bölümleri */
+.about, .skills {
+    background-color: #8893AB;
+    color: white;
+    padding: 50px 20px;
 }
 
-.light-bg {
-    background-color: #8893AB; /* Açık gri ton */
-    color: black;
+.experience {
+    background-color: #117380;
+    color: white;
+    padding: 50px 20px;
 }
 
-.dark-bg {
-    background-color: #117380; /* Koyu mavi-yeşil */
+/* Contact Bölümü */
+.contact {
+    background-color: #1C2349;
+    color: white;
+    padding: 50px 20px;
 }
 
-.footer-bg {
-    background-color: #1C2349; /* Koyu mavi */
-}
-
-/* Form Stili */
 form {
-    width: 50%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input, textarea {
-    width: 100%;
+    width: 80%;
+    max-width: 400px;
     padding: 10px;
     margin: 10px 0;
-    border-radius: 5px;
     border: none;
-    font-size: 16px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
 }
 
 button {
-    background-color: #FDCB02; /* Wix'teki sarı buton */
-    padding: 12px 20px;
-    border: none;
+    background-color: #FFC72C;
     color: black;
-    font-size: 18px;
-    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
     border-radius: 5px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #e1b700;
+    background-color: #E0B020;
 }
 
 /* Footer */
 footer {
-    padding: 20px;
-    font-size: 14px;
+    background-color: #1C2349;
+    color: white;
+    padding: 15px 0;
+    font-size: 0.9rem;
 }
