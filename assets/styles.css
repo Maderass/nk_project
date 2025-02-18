@@ -110,8 +110,8 @@ nav ul li a {
 .contact-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 70%; /* Daha dengeli görünüm için daraltıldı */
+    justify-content: center;
+    width: 60%; /* Daha dar ve ortalanmış form için */
 }
 
 /* Contact Text */
@@ -132,8 +132,11 @@ nav ul li a {
     background-color: #1C2349;
     padding: 20px;
     border-radius: 10px;
-    width: 350px; /* Daha dar form için güncellendi */
+    width: 320px; /* Form daraltıldı */
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Contact Form Elements */
@@ -146,12 +149,13 @@ nav ul li a {
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
+    width: 90%; /* Genişlik daraltıldı */
     padding: 10px;
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #117380;
     background-color: #FFFFFF;
+    text-align: left;
 }
 
 /* Contact Form Button */
@@ -159,11 +163,16 @@ nav ul li a {
     background-color: #117380;
     color: white;
     padding: 10px;
-    width: 100%;
+    width: 90%;
     border: none;
     border-radius: 25px;
     margin-top: 15px;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0e5c66;
 }
 
 /* Footer */
