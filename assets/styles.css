@@ -17,6 +17,7 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -27,6 +28,11 @@ nav ul li {
 nav ul li a {
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 /* Hero Section */
@@ -41,7 +47,6 @@ nav ul li a {
     color: white;
 }
 
-/* Profile Image */
 .profile-img {
     width: 150px;
     height: 150px;
@@ -50,11 +55,13 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-/* Hero Content */
-.hero-content {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
+.hero-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 20px;
 }
 
 /* About Section */
