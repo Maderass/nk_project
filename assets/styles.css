@@ -39,7 +39,6 @@ nav ul li a {
     align-items: center;
     text-align: center;
     color: white;
-    position: relative;
 }
 
 /* Profile Image */
@@ -79,22 +78,51 @@ nav ul li a {
     text-align: center;
 }
 
-#skills h2 {
-    color: #1C2349;
+/* Skills Title */
+.skills-title {
+    font-family: 'Playfair Display', serif;
     font-size: 46px;
-}
-
-.skills-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.skill-category {
-    width: 30%;
-}
-
-.skill-category h3 {
+    font-weight: bold;
+    font-style: italic;
     color: #1C2349;
+}
+
+/* Skill Categories */
+.skill-category {
+    background-color: transparent;
+    border: 2px solid #1C2349;
+    padding: 15px;
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+/* Skill Category Titles */
+.skill-category h3 {
+    font-family: 'Poppins Semi Bold', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1C2349;
+    background-color: transparent;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid #1C2349;
+}
+
+/* Skill List Items */
+.skill-category ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.skill-category ul li {
+    font-family: 'Futura Light', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #FFFFFF;
+    margin-bottom: 5px;
 }
 
 /* Contact Section */
