@@ -42,13 +42,6 @@ nav ul li a {
     position: relative;
 }
 
-/* Hero Content */
-.hero-content {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-}
-
 /* Profile Image */
 .profile-img {
     width: 150px;
@@ -56,6 +49,13 @@ nav ul li a {
     border-radius: 50%;
     border: 3px solid white;
     margin-bottom: 20px;
+}
+
+/* Hero Content */
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* About Section */
@@ -103,21 +103,40 @@ nav ul li a {
     padding: 60px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+/* Contact Container */
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+/* Contact Text */
+.contact-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 40px;
 }
 
 .contact-text h2 {
     color: #1C2349;
     font-size: 50px;
+    margin: 0;
 }
 
+/* Contact Form */
 .contact-form {
     background-color: #1C2349;
     padding: 20px;
     border-radius: 10px;
     width: 400px;
+    flex: 1;
 }
 
+/* Contact Form Elements */
 .contact-form label {
     color: #117380;
     font-size: 16px;
