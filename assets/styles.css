@@ -111,7 +111,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 60%;
 }
 
 /* Contact Text */
@@ -130,9 +130,9 @@ nav ul li a {
 /* Contact Form */
 .contact-form {
     background-color: #1C2349;
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
-    width: 400px;
+    width: 500px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -143,17 +143,17 @@ nav ul li a {
 /* Contact Form Elements */
 .contact-form label {
     color: #117380;
-    font-size: 16px;
+    font-size: 18px;
     display: block;
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 12px;
+    text-align: left;
     width: 100%;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 90%;
-    padding: 12px;
+    width: 95%;
+    padding: 14px;
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #117380;
@@ -161,18 +161,19 @@ nav ul li a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: 16px;
 }
 
 /* Contact Form Button */
 .contact-form button {
     background-color: #117380;
     color: white;
-    padding: 12px;
-    width: 90%;
+    padding: 14px;
+    width: 95%;
     border: none;
     border-radius: 25px;
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
     display: block;
     margin-left: auto;
