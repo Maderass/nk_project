@@ -87,27 +87,37 @@ nav ul li a {
     color: #1C2349;
 }
 
-/* Skill Categories */
-.skill-group {
-    margin: 30px 0;
+/* Skills Container */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Skill Columns */
+.skill-column {
+    width: 30%;
     text-align: left;
 }
 
 /* Skill Category Titles */
-.skill-group h3 {
+.skill-column h3 {
     font-family: 'Poppins Semi Bold', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #1C2349;
+    margin-bottom: 10px;
 }
 
 /* Skill List Items */
-.skill-group ul {
+.skill-column ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-.skill-group ul li {
+.skill-column ul li {
     font-family: 'Futura Light', sans-serif;
     font-size: 16px;
     font-style: italic;
